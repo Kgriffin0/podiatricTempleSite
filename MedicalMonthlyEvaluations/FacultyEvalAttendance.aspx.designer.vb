@@ -14,74 +14,83 @@ Option Explicit On
 Partial Public Class FacultyEvalAttendance
     
     '''<summary>
-    '''RBFEQ1S2 control.
+    '''ColorList control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ1S2 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents ColorList As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''RBFEQ1S3 control.
+    '''RBS1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ1S3 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS1 As Global.System.Web.UI.WebControls.RadioButton
     
     '''<summary>
-    '''RBFEQ3S1 control.
+    '''RBS2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ3S1 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS2 As Global.System.Web.UI.WebControls.RadioButton
     
     '''<summary>
-    '''RBFEQ3S2 control.
+    '''RBS3 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ3S2 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS3 As Global.System.Web.UI.WebControls.RadioButton
     
     '''<summary>
-    '''RBFEQ3S3 control.
+    '''RBS4 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ3S3 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS4 As Global.System.Web.UI.WebControls.RadioButton
     
     '''<summary>
-    '''RBFEQ3S4 control.
+    '''RBS5 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ3S4 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS5 As Global.System.Web.UI.WebControls.RadioButton
     
     '''<summary>
-    '''RBFEQ3S5 control.
+    '''RBS6 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ3S5 As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS6 As Global.System.Web.UI.WebControls.RadioButton
     
     '''<summary>
-    '''RBFEQ3SNA control.
+    '''RBS7 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents RBFEQ3SNA As Global.System.Web.UI.WebControls.RadioButton
+    Protected WithEvents RBS7 As Global.System.Web.UI.WebControls.RadioButton
+    
+    '''<summary>
+    '''RBS8 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RBS8 As Global.System.Web.UI.WebControls.RadioButton
 End Class
