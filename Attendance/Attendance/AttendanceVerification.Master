@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AttendanceVerification.Master.cs" Inherits="Attendance.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Attendance Verification</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header id="Grad"><img class="col-2" style="margin: 5px;" src="assets/img/TUSPM.png"></header>
+    <nav class="navbar navbar-light navbar-expand-md navback" style="height: 40px;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: #222222;">Session</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: #222222;">Student</a></li>
+                    <li class="nav-item"><a class="nav-link" href="FacultyAttendance.aspx" style="color: darkred;">(faculty)Attendance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Attendance.aspx" style="color: darkred;">Attendance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="MonthlyReport.aspx" style="color: darkred;">Monthly Report</a></li>
+                    <li class="nav-item align-self-end"></li>
+                </ul>
+            </div><a href="#" style="color: #222222;">Logout</a>
+        </div>
+    </nav>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
