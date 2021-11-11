@@ -347,6 +347,55 @@ td {
         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
         transition: all 0.4s ease 0s;
+    }
+
+.adminEvalAttendanceEdit {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #9D2235;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    width: 50%;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+    .adminEvalAttendanceEdit:hover {
+        background: black;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+    }
+
+.adminEvalReportDelete {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: grey;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    width: 50%;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+    .adminEvalReportDelete:hover {
+        background: black;
+        letter-spacing: 1px;
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
     } 
 
 .searchButtonAdmin {

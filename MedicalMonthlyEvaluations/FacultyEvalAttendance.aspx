@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-        <div id="faculty_eval_questions" class="jumbotron text-center">Attendance</div>
+        <div id="facultyAttendance" class="jumbotron text-center">Attendance</div>
         <div class="schedulesJumbo p-3">
             <div class="row" style="padding-bottom:20px;">
                     <div class="col">
