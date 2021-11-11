@@ -16,6 +16,7 @@
                             <asp:ListItem Value="User2">Test User 2</asp:ListItem>
                             <asp:ListItem Value="User3">Test User 3</asp:ListItem>
                             <asp:ListItem Value="User4">Test User 4</asp:ListItem>
+                            <asp:ListItem Value="test">Test User 4</asp:ListItem>
                         </asp:DropDownList>
                     </div>
                     <div class="col"></div>
