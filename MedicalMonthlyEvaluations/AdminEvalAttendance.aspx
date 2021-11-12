@@ -20,7 +20,7 @@
                     </div>
                     <div class="col">
                         <div class="d-flex justify-content-center">
-                            <asp:Button runat="server" CssClass="adminEvalAttendanceEdit" type="button" class="btn btn-lg" Text="Edit" />
+                            <asp:Button runat="server" CssClass="adminEvalAttendanceEdit" type="button" class="btn btn-lg" Text="Edit" OnClick="Unnamed1_Click" />
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="editTable" runat="server">
         <div id="AdminEditAttendance" class="jumbotron text-center">Edit Attendance</div>
         <div class="schedulesJumbo p-3">
             <div class="row" style="padding-bottom:20px;">
@@ -133,10 +133,12 @@
                 </table>
             </div>
             <div class="d-flex justify-content-center">
-                <asp:Button runat="server" CssClass="adminUploadStudentEval" type="button" class="btn btn-lg" Text="Submit" />
+                <asp:Button runat="server" CssClass="adminUploadStudentEval" type="button" class="btn btn-lg" Text="Submit" OnClick="Unnamed2_Click" />
             </div>
         </div>
     </div>
+    <h2 style="text-align: center"><asp:Label ID="lblSubmitted" runat="server" Text="Your edit has been submitted"></asp:Label></h2>
+    
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
