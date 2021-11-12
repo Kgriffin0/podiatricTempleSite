@@ -23,6 +23,15 @@ Partial Public Class AbminEvalAttendance
     Protected WithEvents ColorList As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
+    '''editTable control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents editTable As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+    
+    '''<summary>
     '''DropDownList1 control.
     '''</summary>
     '''<remarks>
@@ -102,4 +111,13 @@ Partial Public Class AbminEvalAttendance
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RBS8 As Global.System.Web.UI.WebControls.RadioButton
+    
+    '''<summary>
+    '''lblSubmitted control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblSubmitted As Global.System.Web.UI.WebControls.Label
 End Class
