@@ -354,15 +354,13 @@ td {
     text-transform: uppercase;
     text-decoration: none;
     background: #9D2235;
+    padding: 10px;
     border-radius: 50px;
-    display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
-    width: 50%;
     font-family: 'Lora', serif;
     font-weight: 500;
-    font-size: medium;
-
+    font-size: large;
 }
 
     .adminEvalAttendanceEdit:hover {
@@ -383,10 +381,9 @@ td {
     display: inline-block;
     border: none;
     transition: all 0.4s ease 0s;
-    width: 50%;
     font-family: 'Lora', serif;
     font-weight: 500;
-    font-size: medium;
+    font-size: large;
 }
 
     .adminEvalReportDelete:hover {
