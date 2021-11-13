@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class AdminEvalMonthlyReport
-    
+
     '''<summary>
     '''ColorList control.
     '''</summary>
@@ -21,4 +21,67 @@ Partial Public Class AdminEvalMonthlyReport
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ColorList As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''testUser1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents testUser1 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''testUser2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents testUser2 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''testUer3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents testUer3 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''testUer4 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents testUer4 As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''studentTable control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents studentTable As Global.System.Web.UI.HtmlControls.HtmlGenericControl
+
+    '''<summary>
+    '''close control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents close As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''nameLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents nameLabel As Global.System.Web.UI.WebControls.Label
 End Class
