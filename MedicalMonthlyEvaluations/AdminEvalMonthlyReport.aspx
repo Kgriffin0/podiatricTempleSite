@@ -10,7 +10,14 @@
                         <input class="col-11" type="date" value="">
                     </div>
                     <div class="col">
-                        <asp:DropDownList class="col-8 h-100" id="ColorList" AutoPostBack="True" runat="server">
+                        <asp:DropDownList class="col-8 h-100" id="ddl_Time" AutoPostBack="True" runat="server">
+                            <asp:ListItem Value="empty" Selected="True">Select AM/PM</asp:ListItem>
+                            <asp:ListItem Value="AM">AM</asp:ListItem>
+                            <asp:ListItem Value="PM">PM</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+                    <div class="col">
+                        <asp:DropDownList class="col-8 h-100" id="ddl_StudentList" AutoPostBack="True" runat="server">
                             <asp:ListItem Value="empty" Selected="True">Select Student</asp:ListItem>
                             <asp:ListItem Value="User1">Test User 1</asp:ListItem>
                             <asp:ListItem Value="User2">Test User 2</asp:ListItem>
