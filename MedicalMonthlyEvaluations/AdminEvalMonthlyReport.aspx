@@ -66,8 +66,8 @@
                 </table>
             </div>
             <div class="d-flex justify-content-center">
-                <asp:Button runat="server" CssClass="adminEvalAttendanceEdit col-2 offset-6" style="margin-right:5px;" type="button" class="btn btn-lg" Text="Download" />
-                <asp:Button runat="server" CssClass="adminEvalReportDelete col-2" style="margin-left:5px;" type="button" class="btn btn-lg" Text="Delete" />
+                <asp:Button runat="server" CssClass="adminEvalAttendanceEdit offset-6" style="margin-right:5px;" type="button" class="btn btn-lg" Text="Download" />
+                <asp:Button runat="server" CssClass="adminEvalReportDelete" style="margin-left:5px;" type="button" class="btn btn-lg" Text="Delete" />
             </div>
         </div>
     </div>
