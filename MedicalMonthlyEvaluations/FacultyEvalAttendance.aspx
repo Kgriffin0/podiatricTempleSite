@@ -78,7 +78,7 @@
                 </table>
             </div>
             <div class="d-flex justify-content-center">
-                <asp:Button runat="server" CssClass="adminUploadStudentEval" type="button" class="btn btn-lg" Text="Submit" />
+                <asp:Button runat="server" CssClass="adminUploadStudentEval" type="button" class="btn btn-lg" Text="Submit" onclientclick="javascript:alert('Your edit has been submitted');"/>
             </div>
         </div>
     </div>
