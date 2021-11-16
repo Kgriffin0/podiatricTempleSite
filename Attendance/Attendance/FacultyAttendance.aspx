@@ -9,7 +9,7 @@
             <div class="container" style="padding-top: 40px;">
                 <div class="row">
                     <div class="col">
-                        <input class="col-10" type="date" value="">
+                        <input class="col-10" type="date" value="<%=DateTime.Now.ToString("yyyy-MM-dd") %>">
                     </div>
                     <div class="col">
                         <div class="dropdown">
