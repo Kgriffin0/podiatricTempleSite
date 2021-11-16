@@ -17,13 +17,14 @@
                         </asp:DropDownList>
                     </div>
                     <div class="col">
-                        <asp:DropDownList class="col-8 h-100" id="ColorList" AutoPostBack="True" runat="server">
-                            <asp:ListItem Value="empty" Selected="True">Select Student</asp:ListItem>
-                            <asp:ListItem Value="User1">Test User 1</asp:ListItem>
-                            <asp:ListItem Value="User2">Test User 2</asp:ListItem>
-                            <asp:ListItem Value="User3">Test User 3</asp:ListItem>
-                            <asp:ListItem Value="User4">Test User 4</asp:ListItem>
-                        </asp:DropDownList>
+                        <input list="datalistOptions" class="h-100 col-7" id="txtStudentList" name="StudentList" placeholder="Students..." />
+                        <asp:Button runat="server" Text="Search" class="btn btn-outline-secondary adminEvalAttendanceEdit" type="button" />
+                        <datalist id="datalistOptions">
+                            <option value="Test User 1">
+                            <option value="Test User 2">
+                            <option value="Test User 3">
+                            <option value="Test User 4">
+                        </datalist>
                     </div>
                     <div class="col">
                         <div class="d-flex justify-content-center">
@@ -72,16 +73,17 @@
         <div class="schedulesJumbo p-3">
             <div class="row" style="padding-bottom:20px;">
                     <div class="col">
-                        <input class="col-11" type="date" value="">
+                        <input class="col-11 h-100" type="date" value="">
                     </div>
                     <div class="col">
-                        <asp:DropDownList class="col-8 h-100" id="DropDownList1" AutoPostBack="True" runat="server">
-                            <asp:ListItem Value="empty" Selected="True">Select Student</asp:ListItem>
-                            <asp:ListItem Value="User1">Test User 1</asp:ListItem>
-                            <asp:ListItem Value="User2">Test User 2</asp:ListItem>
-                            <asp:ListItem Value="User3">Test User 3</asp:ListItem>
-                            <asp:ListItem Value="User4">Test User 4</asp:ListItem>
-                        </asp:DropDownList>
+                        <input list="datalistOptions2" class="h-100 col-7" id="txtStudentList2" name="StudentList" placeholder="Students..." />
+                        <asp:Button runat="server" Text="Search" class="btn btn-outline-secondary adminEvalAttendanceEdit" type="button" />
+                        <datalist id="datalistOptions2">
+                            <option value="Test User 1">
+                            <option value="Test User 2">
+                            <option value="Test User 3">
+                            <option value="Test User 4">
+                        </datalist>
                     </div>
                     <div class="col"></div>
                 </div>

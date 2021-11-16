@@ -31,22 +31,23 @@
         studentTable.Focus()
     End Sub
 
-    Protected Sub ColorList_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ColorList.SelectedIndexChanged
-        If ColorList.SelectedValue = "User1" Then
+    Protected Sub Search(sender As Object, e As EventArgs)
+        Dim student As String = Request.Form("StudentList")
+        If student = "Test User 1" Then
             studentTable.Visible = True
-            nameLabel.Text = "Text User 1"
+            nameLabel.Text = "Test User 1"
             studentTable.Focus()
-        ElseIf ColorList.SelectedValue = "User2" Then
+        ElseIf student = "Test User 2" Then
             studentTable.Visible = True
-            nameLabel.Text = "Text User 2"
+            nameLabel.Text = "Test User 2"
             studentTable.Focus()
-        ElseIf ColorList.SelectedValue = "User3" Then
+        ElseIf student = "Test User 3" Then
             studentTable.Visible = True
-            nameLabel.Text = "Text User 3"
+            nameLabel.Text = "Test User 3"
             studentTable.Focus()
-        ElseIf ColorList.SelectedValue = "User4" Then
+        ElseIf student = "Test User 4" Then
             studentTable.Visible = True
-            nameLabel.Text = "Text User 4"
+            nameLabel.Text = "Test User 4"
             studentTable.Focus()
         End If
 
