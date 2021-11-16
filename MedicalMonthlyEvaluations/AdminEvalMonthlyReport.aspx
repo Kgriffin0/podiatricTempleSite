@@ -13,16 +13,17 @@
         <div class="schedulesJumbo p-3">
             <div class="row" style="padding-bottom: 20px;">
                 <div class="col">
-                    <input class="col-11" type="date" value="">
+                    <input class="h-100 col-11" type="date" value="">
                 </div>
                 <div class="col">
-                    <asp:DropDownList class="col-8 h-100" ID="ColorList" AutoPostBack="True" runat="server">
-                        <asp:ListItem Value="empty" Selected="True">Select Student</asp:ListItem>
-                        <asp:ListItem Value="User1">Test User 1</asp:ListItem>
-                        <asp:ListItem Value="User2">Test User 2</asp:ListItem>
-                        <asp:ListItem Value="User3">Test User 3</asp:ListItem>
-                        <asp:ListItem Value="User4">Test User 4</asp:ListItem>
-                    </asp:DropDownList>
+                    <input list="datalistOptions" class="h-100" id="txtStudentList" name="StudentList" placeholder="Search for student..." />
+                    <asp:Button runat="server" Text="Search" class="btn btn-outline-secondary adminEvalAttendanceEdit" type="button" id="buttonaddon2" onclick="Search" />
+                    <datalist id="datalistOptions">
+                        <option value="Test User 1">
+                        <option value="Test User 2">
+                        <option value="Test User 3">
+                        <option value="Test User 4">
+                    </datalist>
                 </div>
                 <div class="col"></div>
             </div>
@@ -73,8 +74,8 @@
                 </table>
             </div>
             <div class="d-flex justify-content-center">
-                <asp:Button runat="server" CssClass="adminEvalAttendanceEdit col-2 offset-6" Style="margin-right: 5px;" type="button" class="btn btn-lg" Text="Download" />
-                <asp:Button runat="server" CssClass="adminEvalReportDelete col-2" Style="margin-left: 5px;" type="button" class="btn btn-lg" Text="Delete" />
+                <asp:Button runat="server" CssClass="adminEvalAttendanceEdit offset-6" Style="margin-right: 5px;" type="button" class="btn btn-lg" Text="Download" />
+                <asp:Button runat="server" CssClass="adminEvalReportDelete" Style="margin-left: 5px;" type="button" class="btn btn-lg" Text="Delete" />
             </div>
         </div>
     </div>
