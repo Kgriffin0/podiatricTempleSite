@@ -1,29 +1,83 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Admin-Master.Master" CodeBehind="AdminStudentEvaluation.aspx.vb" Inherits="MedicalMonthlyEvaluations.AdminStudentEvaluation" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div class="container">
-        <div class="jumbotron text-center">Edit Student Evaluations</div>
-            <div class="schedulesJumbo">
-                <div class="d-flex justify-content-center">
-                
-                    <asp:Button CssClass="adminUploadStudentEval" runat="server" type="button" class="btn btn-primary btn-lg" Text="UPLOAD STUDENT EVALUATION TEMPLATE" />
-                </div>
+        <div class="jumbotron text-center">Evaluations of Faculty</div>
+        <div class="schedulesJumbo">
+            <div class="text-center">
+                <p>The following is the student evaluations for the faculty.</p>
+                <p>1) Please download the template by pressing "Download Student Evaluation Template" and fill it out</p>
+                <p>2) Upload the completed template by pressing "Upload Student Evaluation Form"</p>
+                <asp:Button CssClass="adminUploadStudentEval" runat="server" type="button" class="btn btn-primary btn-lg" Text="DOWNLOAD STUDENT EVALUATION TEMPLATE" />
+                <asp:Button CssClass="adminUploadStudentEval" runat="server" type="button" class="btn btn-primary btn-lg" Text="UPLOAD STUDENT EVALUATION FORM" />
+            </div>
             <div>
-                <div class="d-flex justify-content-center">
-                    <div class="row form-group justify-content-center" style="padding-bottom: 15px; padding-top:10px;">
-                    <asp:TextBox ID="txtSearch" placeholder="Search" Style="border-color: #9D2235; border-width: 2px; background-color: #f7f2f2; margin-right: 3px;" runat="server"></asp:TextBox>
-                
-                    <asp:Button CssClass="searchButtonAdmin" ID="btnSearch" runat="server" Text="Search" /> 
-            
-                    </div>
-                </div>
+                <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Evaluation File Name</th>
+                        <th scope="col">Publish Status</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">StudentMonth5Eval.xlsx</th>
+                        <td>
+                            <asp:Label ID="lblPublishStatus" runat="server" Text="Not Published"></asp:Label></td>
+                        <td>Year1</td>
+                        <td>
+                            <asp:Button ID="btnPublish1" runat="server" Text="PUBLISH" />
+                            <asp:Button ID="btnDelete1" runat="server" Text="DELETE" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">StudentMonth6Eval.xlsx</th>
+                        <td>Published</td>
+                        <td>Year2</td>
+                        <td>
+                            <asp:Button ID="btnUnPublish2" runat="server" Text="UNPUBLISH" />
+                            <asp:Button ID="btnDelete2" runat="server" Text="DELETE" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
                 <br>
             </div>
         </div>
         <div class="schedulesJumbo">
-            <asp:GridView ID="gvStudents" runat="server" AutoGenerateColumns="False" HorizontalAlign="Center">
-            
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rotation Name</th>
+                        <th scope="col">Rotation Location</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Rotation 1</th>
+                        <td>Location 1</td>
+                        <td>[year]</td>
+                        <td>
+                            <asp:Button ID="btnPD1" runat="server" Text="Export Data" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Rotation 2</th>
+                        <td>Location 2</td>
+                        <td>[year]</td>
+                        <td>
+                            <asp:Button ID="btnPD2" runat="server" Text="Export Data" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <%--<asp:GridView ID="gvStudents" runat="server" AutoGenerateColumns="False" HorizontalAlign="Center">
                 <Columns>
                     <asp:TemplateField HeaderText="NAME"></asp:TemplateField>
                     <asp:TemplateField HeaderText="ID"></asp:TemplateField>
@@ -35,7 +89,7 @@
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
-            </asp:GridView>
+            </asp:GridView>--%>
         </div>
     </div>
 </asp:Content>

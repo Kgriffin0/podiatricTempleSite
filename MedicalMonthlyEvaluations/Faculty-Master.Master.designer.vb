@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Faculty_Master
-    
+
     '''<summary>
     '''head control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Faculty_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
-    
+
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class Faculty_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
+
     '''<summary>
     '''lblStudents control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class Faculty_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblStudents As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''lblSessions control.
     '''</summary>
@@ -48,16 +48,7 @@ Partial Public Class Faculty_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblSessions As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''lblAttendance control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents lblAttendance As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''lblMonthlyEvaluation control.
     '''</summary>
@@ -66,7 +57,7 @@ Partial Public Class Faculty_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblMonthlyEvaluation As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''btnLgout control.
     '''</summary>
@@ -75,7 +66,7 @@ Partial Public Class Faculty_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnLgout As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''ContentPlaceHolder1 control.
     '''</summary>

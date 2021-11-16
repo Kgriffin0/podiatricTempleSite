@@ -30,66 +30,55 @@
 
             <div class="text-center">
                 <h4>
-                    <asp:Label runat="server">Please rate the student's performance on the following learning objectives on scale of 1-5:</asp:Label></h4>
-                <p>(1 = Poor, 2 = Fair, 3 = Good, 4 = Very Good, 5 = Excellent, N/A = Not Applicable)</p>
+                    <asp:Label runat="server">Please rate the student's performance on the following learning objectives on scale of 1-5:
+                        <asp:Label runat="server" style="color: red;">*</asp:Label>
+                    </asp:Label></h4>
+                <p>(1 = Poor, 2 = Fair, 3 = Good, 4 = Very Good, 5 = Excellent, N/A = Not Applicable)
+                </p>
             </div>
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">Learning Objective</th>
-                        <th scope="col">1</th>
-                        <th scope="col">2</th>
-                        <th scope="col">3</th>
-                        <th scope="col">4</th>
-                        <th scope="col">5</th>
-                        <th scope="col">N/A</th>
+                        <th scope="col">Rate the Following</th>
+                        <th scope="col">Rating</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Evaluate the patient by performing a comprehensive podiatric, medical and surgical evaluation of patients and estimate criteria for selection of surgical procedures</th>
+                        <th  scope="row">Evaluate the patient by performing a comprehensive podiatric, medical and surgical evaluation of patients and estimate criteria for selection of surgical procedures</th>
                         <td>
-                            <asp:RadioButton ID="RBFEQ1S1" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ1S2" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ1S3" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ1S4" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ1S5" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ1SNA" runat="server" /></td>
+                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList1" CssClass="radioButtonList" TextAlign="Left">
+                                <asp:ListItem Value="1" Text="1"></asp:ListItem>
+                                <asp:ListItem Value="2" Text="2"></asp:ListItem>
+                                <asp:ListItem Value="3" Text="3"></asp:ListItem>
+                                <asp:ListItem Value="4" Text="4"></asp:ListItem>
+                                <asp:ListItem Value="5" Text="5"></asp:ListItem>
+                            </asp:RadioButtonList>
+                        </td>
                     </tr>
                     <tr>
-                        <th scope="row">Perform a lower extremity history and physical examination</th>
+                        <th  scope="row">Perform a lower extremity history and physical examination</th>
                         <td>
-                            <asp:RadioButton ID="RBFEQ2S1" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ2S2" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ2S3" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ2S4" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ2S5" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ2SNA" runat="server" /></td>
+                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList2" CssClass="radioButtonList" TextAlign="Left">
+                                <asp:ListItem Value="1" Text="1"></asp:ListItem>
+                                <asp:ListItem Value="2" Text="2"></asp:ListItem>
+                                <asp:ListItem Value="3" Text="3"></asp:ListItem>
+                                <asp:ListItem Value="4" Text="4"></asp:ListItem>
+                                <asp:ListItem Value="5" Text="5"></asp:ListItem>
+                            </asp:RadioButtonList>
+                        </td>
                     </tr>
                     <tr>
-                        <th scope="row">Perform a complete lower extremity biomechanical evaluation</th>
+                        <th  scope="row">Perform a complete lower extremity biomechanical evaluation</th>
                         <td>
-                            <asp:RadioButton ID="RBFEQ3S1" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ3S2" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ3S3" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ3S4" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ3S5" runat="server" /></td>
-                        <td>
-                            <asp:RadioButton ID="RBFEQ3SNA" runat="server" /></td>
+                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList3" CssClass="radioButtonList" TextAlign="Left">
+                                <asp:ListItem Value="1" Text="1"></asp:ListItem>
+                                <asp:ListItem Value="2" Text="2"></asp:ListItem>
+                                <asp:ListItem Value="3" Text="3"></asp:ListItem>
+                                <asp:ListItem Value="4" Text="4"></asp:ListItem>
+                                <asp:ListItem Value="5" Text="5"></asp:ListItem>
+                            </asp:RadioButtonList>
+                        </td>
                     </tr>
                 </tbody>
             </table>
@@ -105,7 +94,9 @@
             
 
              <h5>
-                <asp:Label runat="server">Final Observation:</asp:Label></h5>
+                <asp:Label runat="server">Final Observation:</asp:Label>
+                 <asp:Label runat="server" style="color: red;">*</asp:Label>
+             </h5>
             <p>This evaluation repressents 
                 <asp:TextBox ID="TextBox1" runat="server" Width="50px"></asp:TextBox>
                  hours of observation or opinon of 

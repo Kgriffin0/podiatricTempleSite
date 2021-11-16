@@ -104,22 +104,13 @@ Partial Public Class FacultyEval_Landing
     Protected WithEvents ddl_FilterCompletionStatus As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''btn_SubmitFCS control.
+    '''btnApplyFilter control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btn_SubmitFCS As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
-    '''btnAddStudent control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents btnAddStudent As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnApplyFilter As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''btnStart control.
@@ -149,11 +140,29 @@ Partial Public Class FacultyEval_Landing
     Protected WithEvents btnView As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''gv_FacultyEvaluationToDo control.
+    '''btnView1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gv_FacultyEvaluationToDo As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents btnView1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnView2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnView2 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnView3 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnView3 As Global.System.Web.UI.WebControls.Button
 End Class

@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <div class="container">
-        <div class="jumbotron text-center">Student Monthly Evaluation</div>
+        <div class="jumbotron text-center">Monthly Evaluation of Faculty</div>
             <div class="schedulesJumbo">
                 <p class="text-center">Please fill out the following evaluations for your given rotational period.</p>
                 <p class="text-left ml-2">
@@ -14,16 +14,20 @@
                 <br>
                 <div class="m-2">
                     <p>
+                        Name:
+                        <asp:Label ID="lblStudentName" runat="server" class="studentEvaluationInfo" Text="[Name]" style="font-weight: bold;"></asp:Label>
+                    </p>
+                    <p>
                         Rotation:
-                        <asp:Label ID="lblStudentRotationalPeriod" runat="server" class="studentEvaluationInfo" Text=""></asp:Label>
+                        <asp:Label ID="lblStudentRotationalPeriod" runat="server" class="studentEvaluationInfo" Text="[Rotation Name]" style="font-weight: bold;"></asp:Label>
                     </p>
                     <p>
                         Program:
-                        <asp:Label ID="lblStudentRotationalProgram" runat="server" class="studentEvaluationInfo" Text=""></asp:Label>
+                        <asp:Label ID="lblStudentRotationalProgram" runat="server" class="studentEvaluationInfo" Text="[Program]" style="font-weight: bold;"></asp:Label>
                     </p>
                     <p>
                         Location:
-                        <asp:Label ID="lblStudentRotationalLocation" runat="server" class="studentEvaluationInfo" Text=""></asp:Label>
+                        <asp:Label ID="lblStudentRotationalLocation" runat="server" class="studentEvaluationInfo" Text="[Location]" style="font-weight: bold;"></asp:Label>
                     </p>
                 </div>
                 <div class="m-2">
@@ -36,8 +40,10 @@
                     </p>
                 </div>
             
-                <div class="d-flex justify-content-center">
+                <div class="text-center">
                     <asp:Button CssClass="falApplyFilters" runat="server" Text="CONTINUE TO EVALUTATION" class="btn btn-primary btn-lg btn-block" OnClick="btnContinueEval_Click" ID="btnContinueEval" />
+                    <asp:Button CssClass="falApplyFilters" class="btn btn-primary btn-lg btn-block" ID="btnEditEval" runat="server" Text="Edit Evaluation" Enabled="False" />
+                    <asp:Button CssClass="falApplyFilters" class="btn btn-primary btn-lg btn-block" ID="btnViewEval" runat="server" Text="View Evaluation" Enabled="False" />
                 </div>
             </div>
     </div>

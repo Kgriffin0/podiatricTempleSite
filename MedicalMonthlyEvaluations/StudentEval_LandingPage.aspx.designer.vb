@@ -12,7 +12,16 @@ Option Explicit On
 
 
 Partial Public Class StudentEval_LandingPage
-    
+
+    '''<summary>
+    '''lblStudentName control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblStudentName As Global.System.Web.UI.WebControls.Label
+
     '''<summary>
     '''lblStudentRotationalPeriod control.
     '''</summary>
@@ -21,7 +30,7 @@ Partial Public Class StudentEval_LandingPage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblStudentRotationalPeriod As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''lblStudentRotationalProgram control.
     '''</summary>
@@ -30,7 +39,7 @@ Partial Public Class StudentEval_LandingPage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblStudentRotationalProgram As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''lblStudentRotationalLocation control.
     '''</summary>
@@ -39,7 +48,7 @@ Partial Public Class StudentEval_LandingPage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblStudentRotationalLocation As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''btnContinueEval control.
     '''</summary>
@@ -48,4 +57,22 @@ Partial Public Class StudentEval_LandingPage
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnContinueEval As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnEditEval control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnEditEval As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnViewEval control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnViewEval As Global.System.Web.UI.WebControls.Button
 End Class

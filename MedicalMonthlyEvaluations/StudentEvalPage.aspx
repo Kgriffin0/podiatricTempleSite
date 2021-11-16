@@ -7,9 +7,13 @@
         <div id="faculty_eval_questions" class="jumbotron text-center">Student Questions</div>
         <div class="schedulesJumbo p-3">
             <br />
+            <p>Any question with a red * are requried to be filled out.</p>
             <h3>
-                <asp:Label runat="server">Section 1:</asp:Label></h3>
+                <asp:Label runat="server" style="font-weight: bold;">Section 1:</asp:Label>
+                <asp:Label runat="server" style="color: red;">*</asp:Label>
+            </h3>
             <div class="d-flex">
+                <%--<asp:Label runat="server" style="color: red;">*</asp:Label>--%>
                 <asp:Label runat="server">Number of Hands on Patients: </asp:Label>
                 <asp:TextBox runat="server" ID="txtQ1" class="ml-2"></asp:TextBox>
             </div>
@@ -17,7 +21,9 @@
             <br />
 
             <h3>
-                <asp:Label runat="server">Section 2:</asp:Label></h3>
+                <asp:Label runat="server" style="font-weight: bold;">Section 2:</asp:Label>
+                <asp:Label runat="server" style="color: red;">*</asp:Label>
+            </h3>
             <h5>
                 <asp:Label runat="server">Number of Patient Contacts with:</asp:Label></h5>
 
@@ -49,7 +55,9 @@
 
             <br />
             <h3>
-                <asp:Label runat="server">Section 3:</asp:Label></h3>
+                <asp:Label runat="server" style="font-weight: bold;">Section 3:</asp:Label>
+                <asp:Label runat="server" style="color: red;">*</asp:Label>
+            </h3>
             <h5>
                 <asp:Label runat="server">Please rate the following using a 5 points scale:</asp:Label></h5>
             <asp:Label runat="server">(1=Poor, 5=Excellent)</asp:Label>
@@ -57,15 +65,15 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">(Rate the Following)</th>
-                        <th scope="col">(Rating)</th>
+                        <th scope="col">Rate the Following</th>
+                        <th scope="col">Rating</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">Academic atmosphere</th>
+                        <th  scope="row">Academic atmosphere</th>
                         <td>
-                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList1">
+                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList1" CssClass="radioButtonList" TextAlign="Left">
                                 <asp:ListItem Value="1" Text="1"></asp:ListItem>
                                 <asp:ListItem Value="2" Text="2"></asp:ListItem>
                                 <asp:ListItem Value="3" Text="3"></asp:ListItem>
@@ -77,7 +85,7 @@
                     <tr>
                         <th scope="row">Quality of academic experience</th>
                         <td>
-                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList2">
+                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList2" CssClass="radioButtonList" TextAlign="Left">
                                 <asp:ListItem Value="1" Text="1"></asp:ListItem>
                                 <asp:ListItem Value="2" Text="2"></asp:ListItem>
                                 <asp:ListItem Value="3" Text="3"></asp:ListItem>
@@ -88,7 +96,7 @@
                     <tr>
                         <th scope="row">Attendings were responsive to students</th>
                         <td>
-                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList3">
+                            <asp:RadioButtonList runat="server" RepeatDirection="Horizontal" ID="RadioButtonList3" CssClass="radioButtonList" TextAlign="Left">
                                 <asp:ListItem Value="1" Text="1"></asp:ListItem>
                                 <asp:ListItem Value="2" Text="2"></asp:ListItem>
                                 <asp:ListItem Value="3" Text="3"></asp:ListItem>
@@ -100,7 +108,7 @@
             </table>
 
             <h3>
-                <asp:Label runat="server">Section 4:</asp:Label></h3>
+                <asp:Label runat="server" style="font-weight: bold;">Section 4:</asp:Label></h3>
             <h5>
                 <asp:Label runat="server">Other Thoughts:</asp:Label></h5>
             <div class="d-flex justify-content-center">

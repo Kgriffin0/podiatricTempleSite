@@ -92,11 +92,8 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminEvalAttendance.aspx" />
-    <Content Include="AdminEvalMonthlyReport.aspx" />
     <Content Include="AdminFacultyEvaluations.aspx" />
     <Content Include="AdminStudentEvaluation.aspx" />
-    <Content Include="FacultyEvalAttendance.aspx" />
     <Content Include="FacultyEvalSubmit.aspx" />
     <Content Include="imgs\belltower.jpg" />
     <Content Include="imgs\blank-profile-picture.png" />
@@ -120,26 +117,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminEvalAttendance.aspx.designer.vb">
-      <DependentUpon>AdminEvalAttendance.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminEvalAttendance.aspx.vb">
-      <DependentUpon>AdminEvalAttendance.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="Admin-Master.Master.designer.vb">
       <DependentUpon>Admin-Master.Master</DependentUpon>
     </Compile>
     <Compile Include="Admin-Master.Master.vb">
       <DependentUpon>Admin-Master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminEvalMonthlyReport.aspx.designer.vb">
-      <DependentUpon>AdminEvalMonthlyReport.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminEvalMonthlyReport.aspx.vb">
-      <DependentUpon>AdminEvalMonthlyReport.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="AdminFacultyEvaluations.aspx.designer.vb">
       <DependentUpon>AdminFacultyEvaluations.aspx</DependentUpon>
@@ -161,13 +144,6 @@
     <Compile Include="Faculty-Master.Master.vb">
       <DependentUpon>Faculty-Master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FacultyEvalAttendance.aspx.designer.vb">
-      <DependentUpon>FacultyEvalAttendance.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FacultyEvalAttendance.aspx.vb">
-      <DependentUpon>FacultyEvalAttendance.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="FacultyEvalSubmit.aspx.designer.vb">
       <DependentUpon>FacultyEvalSubmit.aspx</DependentUpon>

@@ -14,29 +14,65 @@ Option Explicit On
 Partial Public Class AdminStudentEvaluation
 
     '''<summary>
-    '''txtSearch control.
+    '''lblPublishStatus control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents txtSearch As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents lblPublishStatus As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''btnSearch control.
+    '''btnPublish1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnSearch As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnPublish1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''gvStudents control.
+    '''btnDelete1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents gvStudents As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents btnDelete1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnUnPublish2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnUnPublish2 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnDelete2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnDelete2 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnPD1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnPD1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''btnPD2 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnPD2 As Global.System.Web.UI.WebControls.Button
 End Class
