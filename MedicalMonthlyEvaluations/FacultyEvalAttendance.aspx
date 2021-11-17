@@ -7,7 +7,7 @@
         <div class="schedulesJumbo p-3">
             <div class="row" style="padding-bottom:20px;">
                     <div class="col">
-                        <input class="col-11 h-100" type="date" value="">
+                        <input class="col-11 h-100" type="date" value="<%=DateTime.Now.ToString("yyyy-MM-dd")%>">
                     </div>
                     <div class="col">
                         <asp:DropDownList class="col-8 h-100" id="ddl_Time" AutoPostBack="True" runat="server">
