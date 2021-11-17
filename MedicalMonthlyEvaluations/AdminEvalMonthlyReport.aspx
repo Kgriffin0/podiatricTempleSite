@@ -13,7 +13,7 @@
         <div class="schedulesJumbo p-3">
             <div class="row" style="padding-bottom: 20px;">
                 <div class="col">
-                    <input class="h-100 col-11" type="date" value="">
+                    <input class="h-100 col-11" type="date" value="<%=DateTime.Now.ToString("yyyy-MM-dd")%>">
                 </div>
                 <div class="col">
                     <input list="datalistOptions" class="h-100" id="txtStudentList" name="StudentList" placeholder="Search for student..." />
