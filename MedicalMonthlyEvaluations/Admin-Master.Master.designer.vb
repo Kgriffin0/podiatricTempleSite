@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Admin_Master
-
+    
     '''<summary>
     '''head control.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents head As Global.System.Web.UI.WebControls.ContentPlaceHolder
-
+    
     '''<summary>
     '''form1 control.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
+    
     '''<summary>
     '''lblSchedules control.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblSchedules As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''lblUpload control.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblUpload As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''lblEditF control.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblEditF As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''lblEditLocation control.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblEditLocation As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''lblEditRotation control.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblEditRotation As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''lblEditAdmin control.
     '''</summary>
@@ -84,7 +84,25 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblEditAdmin As Global.System.Web.UI.WebControls.Label
-
+    
+    '''<summary>
+    '''lblAttendance control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblAttendance As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''lblMonthlyReport control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents lblMonthlyReport As Global.System.Web.UI.WebControls.Label
+    
     '''<summary>
     '''btnLgout control.
     '''</summary>
@@ -93,7 +111,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents btnLgout As Global.System.Web.UI.WebControls.Button
-
+    
     '''<summary>
     '''ContentPlaceHolder2 control.
     '''</summary>
@@ -102,7 +120,7 @@ Partial Public Class Admin_Master
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents ContentPlaceHolder2 As Global.System.Web.UI.WebControls.ContentPlaceHolder
-
+    
     '''<summary>
     '''ContentPlaceHolder1 control.
     '''</summary>
