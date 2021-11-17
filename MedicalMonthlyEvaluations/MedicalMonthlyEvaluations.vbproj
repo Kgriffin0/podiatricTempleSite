@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminEvalAttendance.aspx" />
+    <Content Include="AdminEvalMonthlyReport.aspx" />
     <Content Include="AdminFacultyEvaluations.aspx" />
     <Content Include="AdminStudentEvaluation.aspx" />
     <Content Include="FacultyEvalAttendance.aspx" />
@@ -131,6 +132,13 @@
     </Compile>
     <Compile Include="AdminEvalAttendance.aspx.vb">
       <DependentUpon>AdminEvalAttendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEvalMonthlyReport.aspx.designer.vb">
+      <DependentUpon>AdminEvalMonthlyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEvalMonthlyReport.aspx.vb">
+      <DependentUpon>AdminEvalMonthlyReport.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdminFacultyEvaluations.aspx.designer.vb">
