@@ -42,7 +42,10 @@
                         <a class="nav-link" href="FacultyEval_Landing.aspx">
                             <asp:Label ID="lblMonthlyEvaluation" runat="server" Text="Monthly Evaluation"></asp:Label></a>
                     </li>
-                    <li class="nav-item">                        <a class="nav-link" href="FacultyEvalAttendance.aspx">                            <asp:Label ID="lblAttendance" runat="server" Text="Attendance"></asp:Label></a>                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FacultyEvalAttendance.aspx">
+                            <asp:Label ID="lblAttendance" runat="server" Text="Attendance"></asp:Label></a>
+                    </li>
 
                 </ul>
             </div>
