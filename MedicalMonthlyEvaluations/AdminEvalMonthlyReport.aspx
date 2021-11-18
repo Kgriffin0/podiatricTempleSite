@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Admin-Master.Master" CodeBehind="AdminEvalMonthlyReport.aspx.vb" Inherits="MedicalMonthlyEvaluations.AdminEvalMonthlyReport" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
@@ -17,7 +18,7 @@
                 </div>
                 <div class="col">
                     <input list="datalistOptions" class="h-100" id="txtStudentList" name="StudentList" placeholder="Search for student..." />
-                    <asp:Button runat="server" Text="Search" class="btn btn-outline-secondary adminEvalAttendanceEdit" type="button" id="buttonaddon2" onclick="Search" />
+                    <asp:Button runat="server" Text="Search" class="btn btn-outline-secondary adminEvalAttendanceEdit" type="button" ID="buttonaddon2" OnClick="Search" />
                     <datalist id="datalistOptions">
                         <option value="Test User 1">
                         <option value="Test User 2">
@@ -79,18 +80,8 @@
             </div>
         </div>
     </div>
-    <div class="container col-4 offset-4" id="studentTable" runat="server">
-        <div>
-            <div id="studentmonthlyreport" class="jumbotron text-center">
-                Attendance 
-                &nbsp &nbsp 
-
-                <asp:Button ID="close" class="btn-close" aria-label="Close" runat="server" Text="X" />
-
-            </div>
-
-        </div>
-
+    <div class="container" id="studentTable" runat="server">
+        <div id="studentmonthlyreport" class="jumbotron text-center">Attendance </div>
         <div class="schedulesJumbo p-3">
             <div class="table-responsive">
                 <div class="text-center font-weight-bolder">
@@ -110,8 +101,8 @@
                             <td class="align-middle">Present</td>
                         </tr>
                         <tr>
-                            <td class="align-middle">November 2st, 2021</td>
-                            <td class="align-middle">Present</td>
+                            <td class="auto-style1">November 2st, 2021</td>
+                            <td class="auto-style1">Present</td>
                         </tr>
                         <tr>
                             <td class="align-middle">November 3st, 2021</td>
@@ -123,7 +114,9 @@
                         </tr>
                     </tbody>
                 </table>
-                <p class="w-100 text-center">...</p>
+                <div class="text-center">
+                    <asp:Button ID="close" class="btn-close text-center" aria-label="Close" runat="server" Text="Close" Width="92px" />
+                </div>
             </div>
         </div>
     </div>

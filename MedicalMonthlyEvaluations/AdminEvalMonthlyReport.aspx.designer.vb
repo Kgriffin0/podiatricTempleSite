@@ -68,15 +68,6 @@ Partial Public Class AdminEvalMonthlyReport
     Protected WithEvents studentTable As Global.System.Web.UI.HtmlControls.HtmlGenericControl
 
     '''<summary>
-    '''close control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents close As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''nameLabel control.
     '''</summary>
     '''<remarks>
@@ -84,4 +75,13 @@ Partial Public Class AdminEvalMonthlyReport
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents nameLabel As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''close control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents close As Global.System.Web.UI.WebControls.Button
 End Class
